@@ -9,6 +9,29 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <style>
+  <style>
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
 html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 </style>
 <body class="w3-theme-l5">
@@ -55,7 +78,31 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       </div>
       <br>
 
-      
+      <!-- Accordion -->
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <table id="t01">
+            <tr>
+              <th>Materia</th>
+              <th>Nota</th> 
+            </tr>
+            <tr>
+              <td>Des Web</td>
+              <td>?</td>
+            </tr>
+            <tr>
+              <td>Banco Dados</td>
+              <td>9.2</td>
+            </tr>
+            <tr>
+              <td>Algoritmos</td>
+              <td>?</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <br>
+
     <!-- End Left Column -->
     </div>
 
