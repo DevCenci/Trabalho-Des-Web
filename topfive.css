@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.caixa1 {
+
+padding: 30px;
+text-align: center;
+background-color: white;
+}
+
+.caixa1 h1 {
+  font-family: Arial;
+  font-style: italic;
+}
+
+.links{
+  padding: 10px;
+  text-align: left;
+  background-color: orange;
+}
+
+.um p{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  border-bottom: 2px solid red;
+}
+
+.um h1{
+  padding: 10px;
+  text-align: left;
+  background-color: orange;
+  border-left: 6px solid red;
+  border-bottom: 6px solid red;
+}
+
+.dois p{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  border-bottom: 2px solid red;
+}
+
+.dois h1{
+    padding: 10px;
+    text-align: left;
+    background-color: orange;
+    border-left: 6px solid red;
+    border-bottom: 6px solid red;
+}
+
+.tres p{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  border-bottom: 2px solid red;
+}
+
+.tres h1{
+  padding: 10px;
+  text-align: left;
+  background-color: orange;
+  border-left: 6px solid red;
+  border-bottom: 6px solid red;
+
+}
+
+.quatro p{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  border-bottom: 2px solid red;
+}
+
+.quatro h1{
+  padding: 10px;
+  text-align: left;
+  background-color: orange;
+  border-left: 6px solid red;
+  border-bottom: 6px solid red;
+}
+
+.cinco p{
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  border-bottom: 2px solid red;
+}
+
+.cinco h1{
+  padding: 10px;
+  text-align: left;
+  background-color: orange;
+  border-left: 6px solid red;
+  border-bottom: 6px solid red;
+}
